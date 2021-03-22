@@ -10,6 +10,7 @@ import {
   FollowAge,
   EditButton,
 } from './styles';
+import Feed from '../Feed';
 
 const ProfilePage: React.FC = () => {
   return (
@@ -48,6 +49,8 @@ const ProfilePage: React.FC = () => {
           </span>
         </FollowAge>
       </ProfileData>
+
+      <Feed />
     </Container>
   );
 };
